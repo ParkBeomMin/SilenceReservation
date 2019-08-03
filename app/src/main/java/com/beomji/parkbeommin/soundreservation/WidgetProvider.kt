@@ -156,6 +156,7 @@ class WidgetProvider : AppWidgetProvider() {
                     .build()
             (context?.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(1, notification)
         }
+        Toast.makeText(context, "${dayTime.format(Date(reservationTime))}에 소리모드로 전환됩니다.", Toast.LENGTH_LONG).show()
     }
 
     private fun startAlarm( alarmManager: AlarmManager, pendingIntent: PendingIntent, delay: Int) {
