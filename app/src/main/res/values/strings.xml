@@ -1,0 +1,14 @@
+<resources>
+    <string name="admob_id">ca-app-pub-7426857657290789~9625380527</string>
+    <string name="ad_unit_id">ca-app-pub-7426857657290789/4181482158</string>
+    <string name="sunday">sun</string>
+    <string name="monday">mon</string>
+    <string name="tuesday">tue</string>
+    <string name="wednesday">wed</string>
+    <string name="thursday">thu</string>
+    <string name="friday">fri</string>
+    <string name="saturday">sat</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7426857657290789/1388755713</string>
+    <string name="reservation_button">reservation</string>
+    <string name="app_name">Silence Reservation</string>
+</resources>

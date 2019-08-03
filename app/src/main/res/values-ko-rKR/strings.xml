@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">무음 예약</string>
+    <string name="sunday">일</string>
+    <string name="admob_id">ca-app-pub-7426857657290789~9625380527</string>
+    <string name="ad_unit_id">ca-app-pub-7426857657290789/4181482158</string>
+    <string name="monday">월</string>
+    <string name="tuesday">화</string>
+    <string name="wednesday">수</string>
+    <string name="thursday">목</string>
+    <string name="friday">금</string>
+    <string name="saturday">토</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7426857657290789/1388755713</string>
+    <string name="reservation_button">예약</string>
+</resources>

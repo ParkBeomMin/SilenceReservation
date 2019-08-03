@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "603862676773",
+    "firebase_url": "https://fir-test-2e554.firebaseio.com",
+    "project_id": "fir-test-2e554",
+    "storage_bucket": "fir-test-2e554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603862676773:android:e20ec9716c794276",
+        "android_client_info": {
+          "package_name": "com.alpa.parkbeommin.firebase_practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603862676773-6of5l5n0mm41jv6os9pn1hb6c3c8oi1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alpa.parkbeommin.firebase_practice",
+            "certificate_hash": "db20a4445fdcfdc2d87ff28bef7b48a25bbc61cd"
+          }
+        },
+        {
+          "client_id": "603862676773-top8dq5mabghrr3dfc9ebs561qdfj4j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmXeovgZed7xWIlUBkimc1-ptC9shegs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603862676773-top8dq5mabghrr3dfc9ebs561qdfj4j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603862676773:android:13998a4c2b0750c4",
+        "android_client_info": {
+          "package_name": "com.beomji.parkbeommin.soundreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603862676773-f7fockiimht34jfvgnateivqctreddm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beomji.parkbeommin.soundreservation",
+            "certificate_hash": "db20a4445fdcfdc2d87ff28bef7b48a25bbc61cd"
+          }
+        },
+        {
+          "client_id": "603862676773-top8dq5mabghrr3dfc9ebs561qdfj4j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmXeovgZed7xWIlUBkimc1-ptC9shegs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603862676773-top8dq5mabghrr3dfc9ebs561qdfj4j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7426857657290789~9625380527"
+    }
+  ],
+  "configuration_version": "1"
+}

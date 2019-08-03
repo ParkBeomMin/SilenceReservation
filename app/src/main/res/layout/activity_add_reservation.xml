@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddReservation">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:timePickerMode="spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/sunBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/sunday"
+        app:layout_constraintEnd_toStartOf="@id/monBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/monBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/monday"
+        app:layout_constraintEnd_toStartOf="@id/tueBtn"
+        app:layout_constraintStart_toEndOf="@id/sunBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/tueBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/tuesday"
+        app:layout_constraintEnd_toStartOf="@id/wedBtn"
+        app:layout_constraintStart_toEndOf="@id/monBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/wedBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/wednesday"
+        app:layout_constraintEnd_toStartOf="@id/thuBtn"
+        app:layout_constraintStart_toEndOf="@id/tueBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/thuBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/thursday"
+        app:layout_constraintEnd_toStartOf="@id/friBtn"
+        app:layout_constraintStart_toEndOf="@id/wedBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/friBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/friday"
+        app:layout_constraintEnd_toStartOf="@id/satBtn"
+        app:layout_constraintStart_toEndOf="@id/thuBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+    <Button
+        android:id="@+id/satBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/day_selector"
+        android:onClick="dayOnClick"
+        android:text="@string/saturday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/friBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"/>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
